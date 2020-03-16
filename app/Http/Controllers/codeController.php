@@ -12,6 +12,8 @@ class codeController extends Controller
 
         if($normal_code !== null){
             return redirect($normal_code->normal_link);
+        } else {
+            abort(404);
         }
     }
 }
