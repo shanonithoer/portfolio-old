@@ -61,15 +61,10 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-
-            .ignas {
-                background-image: url('../images/ignas.jpeg');
-                background-size: cover;
-            }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height ignas">
+        <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -83,11 +78,12 @@
                     @endauth
                 </div>
             @endif
-
+            
             <div class="content">
                 <div class="title m-b-md">
                     Ignas is prachtig.
                 </div>
+                <img src="../images/ignas.jpeg" alt="ignas"/>
             </div>
         </div>
     </body>
