@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Ignas is kanker gay.
+                    Ignas is gay.
                 </div>
             </div>
         </div>
