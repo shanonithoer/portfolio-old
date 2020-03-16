@@ -81,9 +81,8 @@
             
             <div class="content">
                 <div class="title m-b-md">
-                    Ignas is prachtig.
+                    Deshano
                 </div>
-                <img src={{asset('images/ignas.jpeg')}} alt="ignas"/>
             </div>
         </div>
     </body>
