@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('insert', 'insertCode@insert');
+Route::get('/{code}', 'codeController@show');
