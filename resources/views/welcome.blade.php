@@ -83,7 +83,7 @@
                 <div class="title m-b-md">
                     Ignas is prachtig.
                 </div>
-                <img src="../images/ignas.jpeg" alt="ignas"/>
+                <img src={{asset('images/ignas.png')}} alt="ignas"/>
             </div>
         </div>
     </body>
